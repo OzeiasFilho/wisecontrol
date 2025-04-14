@@ -1,0 +1,16 @@
+<!-- device_list.html-->
+ <!DOCTYPE html>
+ <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de dispositivos</title>
+    </head>
+    <body>
+        <h1>Dispositivos</h1>
+        <ul>
+            {% for device in devices %}
+                <li>{{ device.nome }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+ </html>
